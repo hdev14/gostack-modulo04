@@ -1,4 +1,6 @@
+import React from 'react';
+import { render } from 'react-dom';
 
-const sub = (a, b) => a - b;
+import App from './App';
 
-alert(sub(23,1));
+render(<App />, document.getElementById('app'));
